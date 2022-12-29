@@ -1,0 +1,14 @@
+{
+  "name": "cypress-pet",
+  "version": "1.0.0",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "test:run": "cypress run",
+    "test:run:chrome": "cypress run --browser chrome",
+    "test:run:firefox": "cypress run --browser firefox"
+  },
+  "devDependencies": {
+    "cypress": "^10.0.2",
+    "cypress-mochawesome-reporter": "../../"
+  }
+}
